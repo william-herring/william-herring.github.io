@@ -8,36 +8,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <script src="./src/index.js"></script>
 </head>
 <body>
-    <div class="page">
-        <img src="./static/images/whprofile.jpeg" class="profile" width="180px">
-        <h1 class="content-title">Hi, I'm William 👋</h1>
-        <p>Student and software developer based in Melbourne</p>
-        <div class="nav-buttons">
-            <a href="#introduction" class="nav-button">About me</a>
-            <a href="#work" class="nav-button">My work</a>
-            <a href="#contact" class="nav-button">Get in touch</a>
+    <header class="header">
+        <div class="logo-wrapper">
+            <img src="static/images/logo.svg" width="36" alt="William Herring Logo">
         </div>
-    </div>
-    <div class="page" id="introduction">
-        <div class="content-container">
-            <h1 class="content-title">A little about me</h1>
-            <p class="content-description">
-                My passion for computer programming and creating digital solutions started with some clueless tinkering in a BASIC editor and
-                interpreter app that my dad had installed on my iPad when I was about 8 years old. After enough playing around with the app's sample files,
-                I started to figure a few things out for myself. It wasn't long after that I dove in head-first, following along to Derek Banas' Java and Python tutorials.
-                <br><br>
-                I'm now commencing my first year of computer science at RMIT. For me, software development has always been as simple as solving problems with
-                digital systems. I like to look to at the problems that are relevant to me and the way that most people work around them, and ask myself,
-                "How can I change the way this is done? How can I do it better? How can I do it in a way that will help everyone?". So often, I answer each of those questions
-                by imagining a software implementation. Really, that's what I like about software development - making cool shit that makes life easier.
-                <br><br>
-                When I'm not working on a project though, I'm a pretty active member of the Australian speedcubing scene. Competing regularly since 2019, I have attended a number
-                of national and continental championships and reached a career-best ranking of 7<sup>th</sup> in Australia (149<sup>th</sup> in the world) for the Pyraminx event in 2023.
-                I also enjoy playing tennis, watching movies and spending time with my girlfriend, friends and family (including my 11-year-old Labrador Dozer).
-            </p>
+        <div class="nav-wrapper">
+            <a href="#about">
+                About me
+            </a>
+            <a href="#projects">
+                My work
+            </a>
+            <a style="margin-right: 0px;" href="#contact">
+                Get in touch
+            </a>
         </div>
-    </div>
+        <button class="action-button" onclick="toggleDarkMode()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun-icon lucide-sun"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+        </button>
+    </header>
 </body>
 </html>
