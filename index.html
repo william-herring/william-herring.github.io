@@ -7,55 +7,55 @@
     <link rel="stylesheet" href="./static/styles/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <script src="./src/index.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="title-page-wrapper">
-        <header class="header">
-            <div class="logo-wrapper">
-                <a href="#">
-                    <img src="static/images/logo.svg" width="36" alt="William Herring Logo">
-                </a>
+    <div class="wrapper">
+        <div class="inner">
+            <nav class="navbar">
+                <a href="/" class="navbar-title">William Herring</a>
+                <div class="navbar-links">
+                    <a class="navbar-link-active" href="/">About</a>
+                    <a class="navbar-link" href="/projects">Projects</a>
+                    <a class="navbar-link" href="/pages">Pages</a>
+                </div>
+            </nav>
+            <div class="content-box">
+                <h3>A bit about me</h3>
+                <p>
+                    My name is William. I like building cool apps.
+                    <br><br>
+                    I am currently studying computer science at RMIT whilst I continue to work on various
+                    <a href="/projects" class="content-link">software projects</a> that serve myself and my communities.
+                    <br><br>
+                    Outside of my passion for computer programming and software development, I enjoy playing tennis and watching
+                    AFL (Hok26). I like <a href="https://letterboxd.com/williamherring/" class="content-link">watching movies</a>, the outdoors and spending time with friends as well as my 11-year-old Labrador, Dozer. I am also an active
+                    member of the Australian and international <a href="/pages/speedcubing" class="content-link">speedcubing</a> community.
+                </p>
+                <div class="photos-array">
+                    <div class="photo-item" style="width: 195px;">
+                        <img src="./static/images/dozer.jpeg" alt="Dozer sunbathing in the yard" height="260px">
+                        <p class="photo-caption">Dozer sunbathing in the yard [2025]</p>
+                    </div>
+                    <div class="photo-item" style="width: 344.6px;">
+                        <img src="./static/images/graddan.jpeg" alt="Graduation with Daniel (left)" height="260px">
+                        <p class="photo-caption">Graduation with Daniel (left) [2025]</p>
+                    </div>
+                    <div class="photo-item" style="width: 406.3px;">
+                        <img src="./static/images/hallsgap.jpeg" alt="Hike to the Pinnacle during a trip to Halls Gap with my then-girlfriend" height="260px">
+                        <p class="photo-caption">Hike to the Pinnacle during a trip to Halls Gap with my then-girlfriend [2026]</p>
+                    </div>
+                </div>
+                <h3>Links</h3>
+                <p>
+                    <ul>
+                        <li><a class="content-link" href="https://github.com/william-herring" target="_blank">GitHub</a></li>
+                        <li><a class="content-link" href="https://letterboxd.com/williamherring/" target="_blank">Letterboxd</a></li>
+                        <li><a class="content-link" href="mailto:william.herring.au@gmail.com" target="_blank">Email me</a></li>
+                        <li><a class="content-link" href="./static/files/resume.pdf" target="_blank">Résumé</a></li>
+                    </ul>
+                </p>
             </div>
-            <div class="nav-wrapper">
-                <a href="#about">
-                    About me
-                </a>
-                <a href="#projects">
-                    My work
-                </a>
-                <a style="margin-right: 0px;" href="#contact">
-                    Get in touch
-                </a>
-            </div>
-            <button class="icon-button" onclick="toggleDarkMode()">
-                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun-icon lucide-sun"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
-            </button>
-        </header>
-        <div class="title-page">
-            <div class="title-wrapper">
-                <img src="static/images/whprofile.jpeg" width="226" class="profile-picture" alt="William Herring profile picture">
-                <h1 class="title">Hi, I'm William</h1>
-                <p class="title-sub">Software developer and student from Melbourne</p>
-                <a href="#about" class="action-button">
-                    Learn more about me
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="page" id="about">
-        <div class="content-wrapper">
-            <h1 class="title">About me</h1>
-            <p>
-                Computer programming has been my passion for roughly a decade. I almost always have a project on the go
-                and, above all, I just love learning new technologies and practices. For me, software development is all about
-                innovating your way to a digital solution that truly makes a difference in people's lives, so that's what I try
-                to do in all <a href="#projects">my work</a>.
-                <br><br>
-                Based in Melbourne, I am currently studying a Bachelor of Computer Science (Professional) at RMIT. I love playing tennis,
-                speedcubing, AFL, and spending time with the people close to me.
-            </p>
         </div>
     </div>
 </body>

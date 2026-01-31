@@ -7,109 +7,80 @@ html::-webkit-scrollbar {
 }
 
 body {
-    font-family: Inter, sans-serif;
-    font-size: 18px;
-    margin: 0;
-    color: #000000;
+    font-family: PT Serif, serif;
+    margin: 3em;
+    background-color: #e8e8e8;
 }
 
-.dark {
-    background: #1b1b1b;
-    color: #ffff;
-}
-
-.header {
+.wrapper {
     display: flex;
-    padding: 30px;
-}
-
-.nav-wrapper {
-    display: flex;
-    width: 100%;
-    text-align: center;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
-.nav-wrapper a {
-    margin-right: 4em;
-    color: #000000;
+.inner {
+    width: 85%;
 }
 
-.icon-button {
-    background: none;
-    border: none;
+.navbar {
+    display: flex;
+    align-items: center;
+    padding-bottom: 14px;
+    border-bottom: 1.5px solid;
 }
 
-.action-button {
-    background: #ff3f3f;
-    color: #ffff;
-    padding: 0.75em 1em;
+.navbar-title {
     text-decoration: none;
-    border-radius: 50px;
+    color: #000000;
+    padding: 4px;
 }
 
-.action-button:hover {
-    background: #d33333;
+.navbar-links {
+    margin-left: auto;
 }
 
-button:hover {
-    cursor: pointer;
-}
-
-a {
+.navbar-link {
     text-decoration: none;
-    text-underline-offset: 3.5px;
+    color: #000000;
+    padding: 4px;
+    box-shadow: inset 0 0px 0 -1px #144398;
+    transition: box-shadow .20s ease-in-out;
+    line-height: 40px;
 }
 
-a:hover {
-    text-decoration: underline;
+.navbar-link:hover {
+    box-shadow: inset 0 -40px 0 -1px #144398;
+    color: #e8e8e8;
 }
 
-.title-page-wrapper {
+.navbar-link-active {
+    text-decoration: none;
+    background-color: #144398;
+    color: #e8e8e8;
+    padding: 4px;
+}
+
+.content-link {
+    color: #144398;
+}
+
+.photos-array {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo-item {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 50vw;
+    padding: 4px;
 }
 
-.title-page {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 50vw;
+.photo-item img {
+    border: 1.5px solid;
     width: 100%;
 }
 
-.title-wrapper {
-    padding: 5px;
-}
-
-.title {
-    color: #ff3f3f;
-    font-size: 48px;
-}
-
-.title-sub {
-    margin-bottom: 2.25em;
-}
-
-.content-wrapper {
-    width: 60%;
-}
-
-.profile-picture {
-    border-radius: 26px;
+.photo-caption {
+    font-size: 12px;
+    font-style: italic;
 }
