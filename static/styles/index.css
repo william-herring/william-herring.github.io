@@ -84,3 +84,7 @@ body {
     font-size: 12px;
     font-style: italic;
 }
+
+.mini-nav {
+    padding-top: 16px;
+}
