@@ -41,6 +41,7 @@ body {
 
 .navbar-link {
     text-decoration: none;
+    text-align: center;
     color: #000000;
     padding: 4px;
     box-shadow: inset 0 0px 0 -1px #144398;
@@ -87,4 +88,14 @@ body {
 
 .mini-nav {
     padding-top: 16px;
+}
+
+.tag {
+    margin-left: 8px;
+    padding: 4px 6px;
+    text-align: center;
+    font-size: 12px;
+    background-color: #fd7b7b;
+    color: #ffff;
+    border-radius: 30px;
 }
