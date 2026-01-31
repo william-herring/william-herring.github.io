@@ -91,11 +91,46 @@ body {
 }
 
 .tag {
-    margin-left: 8px;
     padding: 4px 6px;
+    display: inline-block;
+    margin-right: 4px;
     text-align: center;
     font-size: 12px;
     background-color: #fd7b7b;
-    color: #ffff;
+    color: #e8e8e8;
     border-radius: 30px;
+}
+
+.project-box {
+    padding: 4px 16px;
+    border: 1.5px solid;
+    margin-bottom: 12px;
+}
+
+.project-title {
+    font-weight: bold;
+}
+
+.project-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 4px 6px;
+    border: 1.5px solid #144398;
+    color: #144398;
+    margin-right: 8px;
+}
+
+.project-link:hover {
+    background-color: #144398;
+    color: #e8e8e8;
+}
+
+.external-link-icon {
+    margin-left: 2px;
+}
+
+.project-links-container {
+    display: flex;
 }
