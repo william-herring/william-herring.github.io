@@ -134,3 +134,11 @@ body {
 .project-links-container {
     display: flex;
 }
+
+.pages-list li {
+    margin-bottom: 4px;
+}
+
+.page-date {
+    font-style: italic;
+}
