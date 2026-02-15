@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Matchmaking in CubeClash | William Herring</title>
+    <link rel="icon" href="../static/images/logo.svg" sizes="any" type="image/svg+xml">
+    <link rel="stylesheet" href="../static/styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="wrapper">
+    <div class="inner">
+        <nav class="navbar">
+            <a href="../index.html" class="navbar-title">William Herring</a>
+            <div class="navbar-links">
+                <a class="navbar-link" href="../index.html">About</a>
+                <a class="navbar-link" href="projects.html">Projects</a>
+                <a class="navbar-link-active" href="../pages">Pages</a>
+            </div>
+        </nav>
+        <div class="content-box">
+            <div class="mini-nav">
+                <a href="../pages" class="content-link">Pages</a>
+                ⸱
+                <a href="#" class="content-link">Matchmaking in CubeClash</a>
+            </div>
+            <h3>Matchmaking in CubeClash</h3>
+            <p class="page-date">Feb 15, 2026</p>
+            <p>
+                I never had doubts that queued matchmaking would prove a significant development hurdle that ultimately exists as a prerequisite
+                to all that encompasses the core 'game' functionality of CubeClash. It was for this reason that I chose to bunker down and really
+                attempt to grind out a matchmaking implementation before progressing with anything more straightforward (albeit far less interesting).
+                I now emerge from the two-ish days it took to reach a somewhat satisfactory result, and during which I was required to remember what it is like to actually use my brain,
+                with some reflection on what proved a really fun engineering exercise.
+                <br><br>
+                When users on CubeClash want to start a battle, the only two inputs that must be specified are <code>battle_type</code> and <code>opponent_type</code>. These
+                are used to inform which battle format (e.g. bo5, bo12) is desired and whether the user requires matchmaking. In the case that a user
+                requests matchmaking, they will need to be entered into a queue of users looking for a <i>similar matchmaking outcome</i>. Factors that must be considered to
+                determine a similar matchmaking outcome are quite simply as follows:
+            </p>
+            <ul>
+                <li>Battle type</li>
+                <li>ELO proximity (i.e. how close together are the ELOs of queued users?)</li>
+            </ul>
+            <p>
+                More concisely, users want to be put into a battle of their desired format against a user of similar ability.
+                <br><br>
+                It took a bit to come up with something that worked as sensibly as I envisioned, but I eventually settled on an idea.
+                When a user needs matchmaking services, they make a request to join a queue, accompanying this request with their user ID, ELO, and
+                chosen battle type. The user will then be entered into a queue corresponding to their selected battle type and <i>ELO catchment</i>.
+                For the moment, ELO catchments increment by the thousands, meaning that if your ELO is 1840, you will be matched with someone who also
+                has an ELO between 1000 and 1999. Whilst this will almost always lead to instantaneous matchmaking between two users in the same ELO catchment,
+                it is <i>technically</i> possible for simultaneous connections to result in there being more than two users in a queue at a given time.
+                Therefore, because I am quite clearly the world's smartest technological mind for having (totally intentionally) considered this edge case,
+                matchmaking queues are always sorted by ELO with every new connection. This way, the pair of users with the greatest ELO proximity will
+                be matched together.
+                <br><br>
+                After joining a queue, a user receives a <i>positional identifier</i> marking their place in the cluster of matchmaking queues. For example,
+                <code>bo5-1000-4</code> signals that the user with ID 4 is queuing for a bo5 match within the 1000-1999 ELO catchment. Using this positional identifier,
+                a user may connect to a WebSocket which effectively serves as a personal 'waiting room' for the user while they await a match to be made.
+                Subscribing to the socket matching a user's positional identifier (e.g. <code>ws://[...]/ws/matchmaking/bo5-1000-4</code> enables the user to receive
+                updates about their matchmaking status only.
+                <br><br>
+                Rather than executing a task to find matches periodically, the matchmaking process is simply triggered with every new queue connection. So, when a
+                user joins a queue where there is already a user waiting, a match is made instantaneously. The battle ID is communicated to each participating user
+                as a status update through their socket connection, which is subsequently used to connect to the battle.
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
