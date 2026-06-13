@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6353bcd7-abb7-48e4-9c7f-a987d71ceb63" name="Changes" comment="title page">
+    <list default="true" id="6353bcd7-abb7-48e4-9c7f-a987d71ceb63" name="Changes" comment="Content and resume updates">
+      <change afterPath="$PROJECT_DIR$/static/images/bigme.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/lilme.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/cubeclash-initial-dashboard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/dozer.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/graddan.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/kosamui.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +41,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/william-herring/william-herring.github.io.git&quot;,
-    &quot;accountId&quot;: &quot;cc70125f-250a-496f-ba48-c60915df1ec5&quot;
+    &quot;accountId&quot;: &quot;b6a9d41f-434f-4cf8-8b2c-57f81ce540b3&quot;
   }
 }</component>
   <component name="MarkdownSettingsMigration">
@@ -52,38 +58,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.6.1&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.6.5&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/williamherring/Development/william-herring.github.io/images&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;/usr/local/bin/node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.tailwind.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/williamherring/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "master",
+    "javascript.nodejs.core.library.configured.version": "24.12.0",
+    "javascript.nodejs.core.library.typings.version": "24.10.9",
+    "javascript.preferred.runtime.type.id": "node",
+    "last_opened_file_path": "/Users/william/Development/william-herring.github.io/static/images",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "/usr/local/bin/node",
+    "nodejs_package_manager_path": "npm",
+    "npm.tailwind.executor": "Run",
+    "settings.editor.selected.configurable": "settings.nodejs",
+    "ts.external.directory.path": "/Users/williamherring/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/images" />
       <recent name="$PROJECT_DIR$/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/files" />
       <recent name="$PROJECT_DIR$/static/images" />
-      <recent name="$PROJECT_DIR$/images" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/old" />
+      <recent name="$PROJECT_DIR$/static/images/" />
+      <recent name="$PROJECT_DIR$/static/files" />
+      <recent name="$PROJECT_DIR$/pages" />
     </key>
   </component>
   <component name="RunManager">
@@ -95,6 +109,9 @@
       </scripts>
       <node-interpreter value="/usr/local/bin/node" />
       <envs />
+      <EXTENSION ID="com.intellij.javascript.debugger.execution.StartBrowserRunConfigurationExtension">
+        <browser with-js-debugger="true" />
+      </EXTENSION>
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -106,7 +123,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-WS-252.28238.10" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.29346.242" />
       </set>
     </attachedChunks>
   </component>
@@ -129,6 +146,17 @@
       <workItem from="1763527535164" duration="44000" />
       <workItem from="1764822140733" duration="27554000" />
       <workItem from="1767566499115" duration="12516000" />
+      <workItem from="1769814456092" duration="20452000" />
+      <workItem from="1770808756573" duration="406000" />
+      <workItem from="1771134537123" duration="11013000" />
+      <workItem from="1773032215026" duration="2063000" />
+      <workItem from="1773212003841" duration="1570000" />
+      <workItem from="1773635210794" duration="2326000" />
+      <workItem from="1774171334017" duration="149000" />
+      <workItem from="1779091860418" duration="64000" />
+      <workItem from="1779584864737" duration="3003000" />
+      <workItem from="1779837407499" duration="24000" />
+      <workItem from="1781318356669" duration="11250000" />
     </task>
     <task id="LOCAL-00001" summary="navigation without .html links">
       <created>1639115092443</created>
@@ -169,7 +197,143 @@
       <option name="project" value="LOCAL" />
       <updated>1767857383925</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="homepage">
+      <option name="closed" value="true" />
+      <created>1769819780509</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1769819780509</updated>
+    </task>
+    <task id="LOCAL-00007" summary="pages">
+      <option name="closed" value="true" />
+      <created>1769820812851</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1769820812851</updated>
+    </task>
+    <task id="LOCAL-00008" summary="page listing">
+      <option name="closed" value="true" />
+      <created>1769896878598</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1769896878598</updated>
+    </task>
+    <task id="LOCAL-00009" summary="cmon man">
+      <option name="closed" value="true" />
+      <created>1769896958106</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1769896958106</updated>
+    </task>
+    <task id="LOCAL-00010" summary="projects page">
+      <option name="closed" value="true" />
+      <created>1769900969627</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1769900969627</updated>
+    </task>
+    <task id="LOCAL-00011" summary="projects page + fixed resume">
+      <option name="closed" value="true" />
+      <created>1770160928756</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1770160928756</updated>
+    </task>
+    <task id="LOCAL-00012" summary="detail fix and homepage update">
+      <option name="closed" value="true" />
+      <created>1770199644155</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1770199644155</updated>
+    </task>
+    <task id="LOCAL-00013" summary="introducing cubeclash page">
+      <option name="closed" value="true" />
+      <created>1770372248376</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1770372248376</updated>
+    </task>
+    <task id="LOCAL-00014" summary="linkedin link">
+      <option name="closed" value="true" />
+      <created>1770372476823</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1770372476823</updated>
+    </task>
+    <task id="LOCAL-00015" summary="favicons, link fixes">
+      <option name="closed" value="true" />
+      <created>1770809151726</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1770809151726</updated>
+    </task>
+    <task id="LOCAL-00016" summary="cubeclash matchmaking devlog">
+      <option name="closed" value="true" />
+      <created>1771145294395</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1771145294395</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fixed links again">
+      <option name="closed" value="true" />
+      <created>1771145359546</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1771145359546</updated>
+    </task>
+    <task id="LOCAL-00018" summary="homepage rewording/image change">
+      <option name="closed" value="true" />
+      <created>1771541166248</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1771541166248</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add image">
+      <option name="closed" value="true" />
+      <created>1771541184117</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1771541184117</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Add a 'current work' section to projects">
+      <option name="closed" value="true" />
+      <created>1771541658715</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1771541658715</updated>
+    </task>
+    <task id="LOCAL-00021" summary="content change">
+      <option name="closed" value="true" />
+      <created>1774054186600</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1774054186600</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Content and resume updates">
+      <option name="closed" value="true" />
+      <created>1779588574638</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1779588574638</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +356,23 @@
     <MESSAGE value="intro content" />
     <MESSAGE value="header" />
     <MESSAGE value="title page" />
-    <option name="LAST_COMMIT_MESSAGE" value="title page" />
+    <MESSAGE value="homepage" />
+    <MESSAGE value="pages" />
+    <MESSAGE value="page listing" />
+    <MESSAGE value="cmon man" />
+    <MESSAGE value="projects page" />
+    <MESSAGE value="projects page + fixed resume" />
+    <MESSAGE value="detail fix and homepage update" />
+    <MESSAGE value="introducing cubeclash page" />
+    <MESSAGE value="linkedin link" />
+    <MESSAGE value="favicons, link fixes" />
+    <MESSAGE value="cubeclash matchmaking devlog" />
+    <MESSAGE value="fixed links again" />
+    <MESSAGE value="homepage rewording/image change" />
+    <MESSAGE value="add image" />
+    <MESSAGE value="Add a 'current work' section to projects" />
+    <MESSAGE value="content change" />
+    <MESSAGE value="Content and resume updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Content and resume updates" />
   </component>
 </project>
