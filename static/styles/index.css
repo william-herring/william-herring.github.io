@@ -88,6 +88,7 @@ a:hover {
     background-size: 0 100%;
     background-position: left;
     border: 2px solid #bcbcbc;
+    margin-bottom: 10px;
 
     transition: background-size 0.2s ease-in-out;
 }
