@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6353bcd7-abb7-48e4-9c7f-a987d71ceb63" name="Changes" comment="redesign">
+    <list default="true" id="6353bcd7-abb7-48e4-9c7f-a987d71ceb63" name="Changes" comment="remove photos">
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -34,7 +35,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/william-herring/william-herring.github.io.git&quot;,
-    &quot;accountId&quot;: &quot;b6a9d41f-434f-4cf8-8b2c-57f81ce540b3&quot;
+    &quot;accountId&quot;: &quot;cc70125f-250a-496f-ba48-c60915df1ec5&quot;
   }
 }</component>
   <component name="MarkdownSettingsMigration">
@@ -60,8 +61,8 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;24.12.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;24.10.9&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;24.11.1&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;24.11.2&quot;,
     &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/william/Development/william-herring.github.io/static/images&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -116,7 +117,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.29346.242" />
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-WS-252.28238.10" />
       </set>
     </attachedChunks>
   </component>
@@ -151,6 +152,9 @@
       <workItem from="1779837407499" duration="24000" />
       <workItem from="1781318356669" duration="12087000" />
       <workItem from="1784417730987" duration="312000" />
+      <workItem from="1787711739326" duration="349000" />
+      <workItem from="1787712099138" duration="65000" />
+      <workItem from="1788912316541" duration="1059000" />
     </task>
     <task id="LOCAL-00001" summary="navigation without .html links">
       <created>1639115092443</created>
@@ -335,7 +339,23 @@
       <option name="project" value="LOCAL" />
       <updated>1781346754507</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="add fish project card">
+      <option name="closed" value="true" />
+      <created>1787711403808</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1787711403808</updated>
+    </task>
+    <task id="LOCAL-00025" summary="remove photos">
+      <option name="closed" value="true" />
+      <created>1787712148579</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1787712148579</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,6 +396,8 @@
     <MESSAGE value="content change" />
     <MESSAGE value="Content and resume updates" />
     <MESSAGE value="redesign" />
-    <option name="LAST_COMMIT_MESSAGE" value="redesign" />
+    <MESSAGE value="add fish project card" />
+    <MESSAGE value="remove photos" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove photos" />
   </component>
 </project>
