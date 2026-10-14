@@ -53,26 +53,6 @@ a:hover {
     flex-wrap: wrap;
 }
 
-.photo-container {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    background-color: #ffffff;
-    margin-right: 25px;
-    margin-bottom: 15px;
-    border: 2px solid #bcbcbc;
-}
-
-.photo-caption {
-    font-size: 14px;
-    text-align: center;
-    font-style: italic;
-}
-
-.inline-photo {
-    padding: 10px;
-}
-
 .projects-container {
     display: flex;
     flex-direction: column;
